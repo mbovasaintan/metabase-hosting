@@ -14,6 +14,3 @@ ENV PORT=3000
 
 # Exposer le port Metabase
 EXPOSE 3000
-
-# Commande de lancement explicite
-CMD ["java", "-jar", "metabase.jar"]
